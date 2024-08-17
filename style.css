@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #000;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.inDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width:400px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 7px;    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+h1 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+button {
+    margin-left: 10px;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 3px 8px;
+    height: 26px;
+    width: 52px;
+}
+#add-btn{
+    height: 30px;
+}
+#toggle-theme-btn{
+    position: absolute;
+    right: 330px;
+}
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+.dark-mode .container {
+    background: #444;
+}
+.dark-mode li {
+    border-bottom: 1px solid #555;
+}
+.dark-mode button {
+    background-color: rgba(0, 0, 0, 0.462);
+    color: rgba(231, 231, 231, 0.942);
+}
+.dark-mode input {
+    background-color: rgba(0, 0, 0, 0.256);
+    color: rgba(231, 231, 231, 0.942);
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.524);
+    color: white;
+}
